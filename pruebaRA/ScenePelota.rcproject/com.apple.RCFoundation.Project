@@ -1,0 +1,651 @@
+{
+  "__content" : [
+    {
+      "scenes" : [
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "force" : [
+                                            0,
+                                            4.9999995231628418,
+                                            7.1525585099152522e-07
+                                          ],
+                                          "target" : [
+                                            "546B10EB-3CEA-4D08-A3C9-9B25037781A9"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "physics"
+                                        }
+                                      },
+                                      "identifier" : "03FDAC65-E357-46EC-9946-65A15701C745",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "B778AD4A-5FDD-4D6C-A2E0-AE4484976E1F",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.364705890417099,
+                        0.74117648601531982,
+                        0.69019609689712524,
+                        1
+                      ],
+                      "identifier" : "8B68A17E-C830-4612-8D78-BAC9228FC0C4",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Comportamiento",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "546B10EB-3CEA-4D08-A3C9-9B25037781A9"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "064CF521-C929-4BC1-8D6E-CD9D9CD04F22",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                }
+              ],
+              "gravity" : [
+                0,
+                0,
+                0
+              ],
+              "hasGroundPlane" : false,
+              "identifier" : "3BED445D-F732-48E9-B307-8D095E5BDEC2",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "035E2A85-2A6C-4164-B2A6-AA49B616DA3B" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Basketball"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "85F009A3-0DE5-41C0-A46E-C9208F824876"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Basketball.31bcc7f7-9e10-46d7-aec6-57a2bc2894dc",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "546B10EB-3CEA-4D08-A3C9-9B25037781A9"
+                          }
+                        ],
+                        [
+                          "entityName",
+                          {
+                            "typeName" : "String",
+                            "value" : "pelotaBasket"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : false
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "static"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1.0014628171920776,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.0014628171920776,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1.0014628171920776,
+                        0,
+                        0,
+                        -0.0039671063423156738,
+                        -4.9182875550002336e-09,
+                        1
+                      ]
+                    }
+                  },
+                  "Cube" : null,
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "EscenaPelota1",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.95577281713485718,
+                  1.0430813546236095e-07,
+                  -0.29410585761070251,
+                  0,
+                  -0.020451299846172333,
+                  0.99757933616638184,
+                  -0.066461384296417236,
+                  0,
+                  0.29339402914047241,
+                  0.069537222385406494,
+                  0.95345920324325562,
+                  0,
+                  0.41428107023239136,
+                  0.31148558855056763,
+                  1.3554844856262207,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "ACABBAC9-F508-48BD-B161-6834701BBF36",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "AD3F10F2-A048-45D4-A05E-6EC291DB8453" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Soccer Ball"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "0C0D8CA0-999F-4AAF-A3DD-1FB838504CB7"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.SoccerBall.53b0ac2f-209f-440a-9e03-e4d96ffa88c3",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "578390C0-77F7-4B65-88BD-E4A80C007D07"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Bubble" : null
+                },
+                "factory" : null
+              },
+              "title" : "caraSekilin",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.94605916738510132,
+                  -1.4842952644755769e-08,
+                  -0.3239937424659729,
+                  0,
+                  -0.034864816814661026,
+                  0.99419313669204712,
+                  -0.10180503875017166,
+                  0,
+                  0.32211238145828247,
+                  0.10760962218046188,
+                  0.94056558609008789,
+                  0,
+                  0.19966113567352295,
+                  0.083275362849235535,
+                  0.44356897473335266,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "name" : "face"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                0,
+                9.8000001907348633
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "765D8B19-742A-4F9E-AB2A-D3C7401A5005",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "6263E9ED-C40D-4AB6-90BB-2AFCFE1269B7" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Tennis Ball"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "4C1AD7E4-E729-45EA-B27D-4C77C321EDD2"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.TennisBall.0bee3e4f-946c-4b6d-96d1-9dbf6eea99ab",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "5A195768-C9B2-4DA5-8055-F4EBF9BAD7E1"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        2.659278392791748,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.659278392791748,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2.659278392791748,
+                        0,
+                        -2.7776742683727207e-08,
+                        -0.055809732526540756,
+                        -0.00514226034283638,
+                        1
+                      ]
+                    }
+                  },
+                  "Bubble" : null
+                },
+                "factory" : null
+              },
+              "title" : "caraSekilina",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.99514412879943848,
+                  -1.257285475730896e-08,
+                  -0.098428115248680115,
+                  0,
+                  -0.0032586376182734966,
+                  0.99945175647735596,
+                  -0.032946228981018066,
+                  0,
+                  0.09837418794631958,
+                  0.033107072114944458,
+                  0.9945986270904541,
+                  0,
+                  0.090542115271091461,
+                  0.051820285618305206,
+                  0.50705909729003906,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1,
+                  0,
+                  0,
+                  -1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        },
+        {
+          "__content" : [
+            {
+              "arAnchorSpecification" : {
+                "alignment" : "horizontal",
+                "name" : "surface"
+              },
+              "behaviors" : [
+
+              ],
+              "gravity" : [
+                0,
+                -9.8000001907348633,
+                0
+              ],
+              "hasGroundPlane" : true,
+              "identifier" : "10B75635-380E-4733-A57C-C35B09E4568A",
+              "material" : "concrete",
+              "overrides" : {
+                "children" : {
+                  "Cube" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "material",
+                          {
+                            "typeName" : "String",
+                            "value" : "plastic"
+                          }
+                        ],
+                        [
+                          "materialColor",
+                          {
+                            "typeName" : "double4",
+                            "value" : [
+                              0.93335074186325073,
+                              0.93335074186325073,
+                              0.93335074186325073,
+                              1
+                            ]
+                          }
+                        ],
+                        [
+                          "type",
+                          {
+                            "typeName" : "String",
+                            "value" : "box"
+                          }
+                        ]
+                      ],
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.CoreAssetFactories.PrimitiveShapeAssetFactory",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "DCC3BA15-0F93-4BE9-98EF-B5BBE7E0164F"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0.05000000074505806,
+                        0,
+                        1
+                      ]
+                    }
+                  },
+                  "Plate" : null
+                },
+                "factory" : null
+              },
+              "title" : "escenaCoski",
+              "viewTransform" : {
+                "cameraTransform" : [
+                  0.98326849937438965,
+                  5.5879354476928711e-08,
+                  0.18216192722320557,
+                  0,
+                  0.053444352000951767,
+                  0.95599287748336792,
+                  -0.28848081827163696,
+                  0,
+                  -0.17414550483226776,
+                  0.29338964819908142,
+                  0.93999773263931274,
+                  0,
+                  -0.0068416185677051544,
+                  0.30693891644477844,
+                  0.66518843173980713,
+                  1
+                ],
+                "sceneTransform" : [
+                  1,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.99999994039535522,
+                  0,
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              }
+            }
+          ],
+          "__version" : 4
+        }
+      ],
+      "tags" : {
+        "__content" : [
+          {
+            "tagsStore" : {
+
+            }
+          }
+        ],
+        "__version" : 1
+      }
+    }
+  ],
+  "__version" : 1
+}
