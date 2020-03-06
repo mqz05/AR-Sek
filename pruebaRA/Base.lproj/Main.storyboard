@@ -140,10 +140,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="712" height="794"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sOr-eT-vpP">
-                                        <rect key="frame" x="0.0" y="0.0" width="712" height="1100"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="712" height="1500"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1S-g2-ZBI">
-                                                <rect key="frame" x="0.0" y="972" width="712" height="128"/>
+                                                <rect key="frame" x="0.0" y="1372" width="712" height="128"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="128" id="EDc-be-aRt"/>
@@ -174,7 +174,7 @@
                                             <constraint firstAttribute="bottom" secondItem="f1S-g2-ZBI" secondAttribute="bottom" id="dHw-Fc-GoG"/>
                                             <constraint firstAttribute="trailing" secondItem="f1S-g2-ZBI" secondAttribute="trailing" id="eBe-XK-kyi"/>
                                             <constraint firstItem="fEf-eq-daX" firstAttribute="leading" secondItem="sOr-eT-vpP" secondAttribute="leading" constant="8" id="ew0-Hg-RLY"/>
-                                            <constraint firstAttribute="height" constant="1100" id="n9i-Ux-vPx"/>
+                                            <constraint firstAttribute="height" priority="250" constant="1500" id="n9i-Ux-vPx"/>
                                             <constraint firstItem="fEf-eq-daX" firstAttribute="top" secondItem="bnl-S6-MI6" secondAttribute="bottom" constant="8" id="s4a-7h-JeP"/>
                                         </constraints>
                                     </view>

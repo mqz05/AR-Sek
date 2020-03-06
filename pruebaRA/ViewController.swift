@@ -76,6 +76,7 @@ class ViewController: UIViewController {
 
         flechaPersonajes.isHidden = true
         textoSeleccionarPersonaje.isHidden = true
+        arView.session.run(cara)
         
     }
     
@@ -85,6 +86,7 @@ class ViewController: UIViewController {
     //
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        arView.session.pause()
     }
     
     
